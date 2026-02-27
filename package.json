@@ -1,0 +1,27 @@
+{
+  "name": "claude-aura",
+  "version": "0.1.0",
+  "description": "Your office light mirrors Claude Code's state. Thinking, waiting, done.",
+  "type": "module",
+  "bin": {
+    "claude-aura": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.0.0",
+    "commander": "^13.0.0",
+    "undici": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "license": "MIT",
+  "keywords": ["claude", "hue", "philips-hue", "claude-code", "ambient", "hooks"]
+}
